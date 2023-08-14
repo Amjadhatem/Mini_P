@@ -1,5 +1,4 @@
 <?php
-
 $is_invalid = false;
 
 if($_SERVER["REQUEST_METHOD"] === "POST"){
@@ -18,8 +17,11 @@ if($_SERVER["REQUEST_METHOD"] === "POST"){
       if(password_verify($_POST["password"] , $user["Password"])){
         
         session_start();
+
+        session_regenerate_id();
+        
         $_SESSION["user_id"] = $user["id"];
-        header("Location :index.php");
+        header("Location: index.php");
         exit;
       }
      }
@@ -42,11 +44,11 @@ if($_SERVER["REQUEST_METHOD"] === "POST"){
       <div class="logo-img">
         <img id="logo" src="./img/R2-removebg-preview.png" alt="logo" width="6%" style="margin-left: 2% ">
       </div>    
-        <div class="sign-up">
-
-        <!-- <?php if($is_invalid):?> 
+      <!-- <?php if($is_invalid):?> 
         <em>Invalid Login</em>  
         <?php endif; ?> -->
+
+        <div class="sign-up">
 
           <form method="post">
 
@@ -59,7 +61,7 @@ if($_SERVER["REQUEST_METHOD"] === "POST"){
             <button id="buttonID" type="submit" value="submit">
               <span>LogIn</span>
             </button>
-            <p class="singInP">Don't have any account <a href="./login.html" style="text-decoration: none;">Sing Up</a> </p></div>
+            <p class="singInP">Don't have any account <a href="./testRe.html" style="text-decoration: none;">Sing Up</a> </p></div>
           </form>
         </div>
       </div>

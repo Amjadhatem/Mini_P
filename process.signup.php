@@ -19,7 +19,7 @@ if($_POST["password"] !== $_POST["password_confirmation"]){
     die("Passwords must match");
 }
 
-if(! preg_match("/[0-9]/i" , $_POST["mobile"])){
+if(! preg_match("/[0-14]/i" , $_POST["mobile"])){
     die("Mobile number must at least 10 number");
 }
 

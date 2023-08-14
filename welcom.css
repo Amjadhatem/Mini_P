@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+body{
+    overflow-y:auto;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/pexels-photo-13446634.jpeg);
+    background-size: cover;
+    background-position: center ;
+}
+
+#logo{
+    display: flex;
+    width: 6%;
+    margin-left: 2%
+}
+
+.para1{
+/* border: 2px solid white; */
+width: 30%;
+font-size: 28px;
+margin: 5rem 8rem 0 ;
+}
+.para1 h3 {
+font-size: 25px;
+opacity: .7;
+}
+
+.buttons{
+    /* border: 2px solid white; */
+    width: 30rem;
+    margin: 1rem 8rem;
+
+}
+
+.button{
+width: 90%;
+height: 3rem;
+font-size: 25px;
+border-radius: .4rem;
+border: none;
+background-color: #353449;
+color: white;
+}
+
+.button:hover{
+background-color: black;
+transition: .5s;
+color: red;
+opacity: .7;
+}
+.button a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+@media (max-width: 1200px) {
+    .para1 {
+        width: 40%;
+        font-size: 24px;
+        margin: 4rem 6rem 0;
+    }
+
+    .buttons {
+        width: 60%;
+        margin: 1rem auto;
+    }
+
+    .button {
+        font-size: 22px;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .para1 {
+        width: 60%;
+        font-size: 20px;
+        margin: 3rem auto 0;
+    }
+
+    .buttons {
+        width: 80%;
+        margin: 1rem auto;
+    }
+
+    .button {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .para1 {
+        width: 80%;
+        font-size: 18px;
+        margin: 2rem auto 0;
+        color: white;
+    }
+
+    .buttons {
+        width: 90%;
+        margin: 1rem auto;
+    }
+
+    .button {
+        font-size: 16px;
+    }
+}

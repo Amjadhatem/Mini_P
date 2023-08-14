@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+span{
+    color: red;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+h1{
+    /* border: 2px solid white; */
+    text-align: center;
+    font-size: 65px;
+    width: 25rem;
+    margin-top: 4rem;
+    margin-left: 33rem;
+}
+.container{
+    /* border: 2px solid white; */
+
+    text-align: left;
+    width: 35%;
+    font-size: 40px;
+    margin-top: 10rem;
+    margin-left: 32rem;
+}
