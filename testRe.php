@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title> Reqister</title>
-    <link rel="icon" type="image/x-icon" href="./img/R2-removebg-preview.png" />
+    <link rel="icon" type="image/x-icon" href="./C:\xampp\htdocs\Mini_P\img\R2-removebg-preview.png" />
     <link rel="stylesheet" href="./testre.css">
   </head>
   <body>

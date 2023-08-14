@@ -16,7 +16,8 @@ if (isset($_SESSION["user_id"])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Resault</title>
+    <link rel="icon" type="image/x-icon" href="./C:\xampp\htdocs\Mini_P\img\R2-removebg-preview.png" />
     <link rel="stylesheet" href="./index.css">
 </head>
 <body>

@@ -5,7 +5,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="./C:\xampp\htdocs\Mini_P\img\R2-removebg-preview.png" />
+    <title>Welcome</title>
     <link rel="stylesheet" href="./welcom.css">
 </head>
 <body>
@@ -18,7 +19,7 @@
 
     <div class="buttons">
         <div><button class="button"><a href="./login.php">LogIn</a></button></div><br>
-        <div><button class="button"><a href="./testRe.hltm">SignUp</a></button></div><br>
+        <div><button class="button"><a href="./testRe.php">SignUp</a></button></div><br>
     </div>
 </body>
 </html>
