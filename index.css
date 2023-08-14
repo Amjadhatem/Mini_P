@@ -17,7 +17,7 @@ h1{
     font-size: 65px;
     width: 25rem;
     margin-top: 4rem;
-    margin-left: 37rem;
+    margin-left: 35rem;
 }
 .container{
     /* border: 2px solid white; */
@@ -39,8 +39,8 @@ a{
     color: white;
     text-align: center;
     text-decoration: none;
-    margin-top: 16rem;
-    margin-left: 47rem;
+    margin-top: 12rem;
+    margin-left: 45rem;
     font-weight: bold;
 }
 a:hover{

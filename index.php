@@ -30,7 +30,8 @@ if (isset($_SESSION["user_id"])) {
         <p><span>Phone Number :</span><?php echo htmlspecialchars($user["Mobile"]); ?> </p>
         </div>
         <?php else: ?>
-        <p><a href="logout.php">Log Out</a></p>
+        <!-- <a href="logout.php">Log Out</a> -->
     <?php endif; ?>
+    <a href="welcome.php">Log Out</a>
 </body>
 </html>
