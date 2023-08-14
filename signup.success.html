@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            box-sizing: border-box;
+        }
+        html {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: linear-gradient(45deg, #021147, #000000 , rgb(2, 25, 90));
+    background-size: 400% 400%;
+    animation: animateBackground 10s ease infinite;
+  }
+body{
+    overflow-y:auto;
+    overflow-x: hidden;
+}
+  p {
+    display: none;
+  }
+   .welcomeP{
+    font-size: 30px;
+    font-weight: bold;
+  } 
+   @keyframes animateBackground {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }  
+
+  h1{
+    /* border: 2px solid white; */
+    width: 20%;
+    text-align: center;
+    font-size: 80px;
+    color: white;
+    margin-top: 16rem;
+    margin-left: 36rem;
+  }
+  #para{
+    text-align: center;
+    width: 40%;
+    font-size: 30px;
+    /* border: 2px solid white; */
+    color: white;
+    margin-top: 1rem;
+    margin-left: 27rem;
+
+}
+
+#para a {
+    text-decoration: none;
+    color: rgb(76, 156, 225);
+    font-weight: bold;
+}
+#para a:hover{
+    color: red;
+    transition: .5s;
+}
+  
+
+    </style>
+</head>
+<body>
+    <h1>SignUp</h1>
+    <h6 id="para" >Signup Successful .
+        You can now <a href="./login.php">Log in</a>
+    </h6>
+</body>
+</html>
