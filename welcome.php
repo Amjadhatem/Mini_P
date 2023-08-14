@@ -18,7 +18,7 @@
 
     <div class="buttons">
         <div><button class="button"><a href="./login.php">LogIn</a></button></div><br>
-        <div><button class="button"><a href="./testRe.html">SignUp</a></button></div><br>
+        <div><button class="button"><a href="./testRe.hltm">SignUp</a></button></div><br>
     </div>
 </body>
 </html>

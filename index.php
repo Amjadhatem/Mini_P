@@ -21,6 +21,7 @@ if (isset($_SESSION["user_id"])) {
 </head>
 <body>
     <h1>Welcome</h1>
+    <br><hr>
     <?php if (isset($user)): ?>
       <div class="container">
         <p><span>Name :</span><?php echo htmlspecialchars($user["F_Name"]); ?></p>
