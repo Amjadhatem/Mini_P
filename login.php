@@ -61,7 +61,7 @@ if($_SERVER["REQUEST_METHOD"] === "POST"){
             <button id="buttonID" type="submit" value="submit">
               <span>LogIn</span>
             </button>
-            <p class="singInP">Don't have any account <a href="./testRe.html" style="text-decoration: none;">Sing Up</a> </p></div>
+            <p class="singInP">Don't have any account <a href="./testRe.php" style="text-decoration: none;">Sing Up</a> </p></div>
           </form>
         </div>
       </div>
